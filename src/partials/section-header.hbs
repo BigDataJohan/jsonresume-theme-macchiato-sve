@@ -18,7 +18,9 @@
         {{#if startDate}}
             <span class="startDate">{{formatDate startDate}}</span>
             {{#if endDate}}
-            <span class="endDate"> - {{formatDate endDate}}</span>
+                {{#unless (eq startDate endDate)}}
+                <span class="endDate"> - {{formatDate endDate}}</span>
+                {{/unless}}
             {{else}}
             <span class="endDate"> - Present</span>
             {{/if}}
