@@ -471,3 +471,5 @@ src/__tests__/__image_snapshots__/__diff_output__/
 .npm-global
 .direnv
 .claude
+resume.html
+resume.pdf
