@@ -236,6 +236,7 @@ ul.two-column li {
 
 .summary {
   margin: 5px 0 5px;
+  white-space: pre-wrap;
 }
 
 .sublink {
